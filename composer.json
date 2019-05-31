@@ -13,7 +13,8 @@
 	"minimum-stability": "dev",
 	"require": {
 		"php": ">=5.4.0",
-		"sendgrid/sendgrid": "~7"
+		"sendgrid/sendgrid": "~7",
+		"sendpulse/rest-api": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {
