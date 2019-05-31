@@ -14,7 +14,8 @@
 	"require": {
 		"php": ">=5.4.0",
 		"sendgrid/sendgrid": "~7",
-		"sendpulse/rest-api": "dev-master"
+		"sendpulse/rest-api": "dev-master",
+		"wildbit/postmark-php": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {
