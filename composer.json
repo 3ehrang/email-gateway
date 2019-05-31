@@ -1,0 +1,22 @@
+{
+	"name": "beno/email-gateway",
+	"type": "library",
+	"description": "This package sends transactional emails via different mail services.",
+	"keywords": ["php","email","transactional"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Behrang Nour",
+			"email": "behrangno@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"EmailGateway\\": "src/EmailGateway"
+		}
+	}
+}
